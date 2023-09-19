@@ -1,0 +1,89 @@
+{
+  "sol_file_path": "GreenVesting.sol",
+  "contract_name": "GreenVesting",
+  "contract_id": 1497,
+  "function_name": "release",
+  "function_id": 1450,
+  "function_sbp_infos": [
+    {
+      "expr_id": 1357,
+      "lable_infos": {
+        "label": "onlyOwner",
+        "sbp_lib": "onlyOwner",
+        "sbp_api": "onlyOwner"
+      }
+    },
+    {
+      "expr_id": 1359,
+      "lable_infos": {
+        "label": "nonReentrant",
+        "sbp_lib": "nonReentrant",
+        "sbp_api": "nonReentrant"
+      }
+    },
+    {
+      "expr_id": 1377,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "add"
+      }
+    },
+    {
+      "expr_id": 1394,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "add"
+      }
+    },
+    {
+      "expr_id": 1393,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "mul"
+      }
+    },
+    {
+      "expr_id": 1404,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "sub"
+      }
+    },
+    {
+      "expr_id": 1403,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "mul"
+      }
+    },
+    {
+      "expr_id": 1411,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "add"
+      }
+    },
+    {
+      "expr_id": 1433,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "sub"
+      }
+    },
+    {
+      "expr_id": 1442,
+      "lable_infos": {
+        "label": "low-level call",
+        "sbp_lib": "SafeERC20",
+        "sbp_api": "safeTransfer"
+      }
+    }
+  ]
+}

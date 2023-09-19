@@ -1,0 +1,33 @@
+{
+  "sol_file_path": "GreenVesting.sol",
+  "contract_name": "GreenVesting",
+  "contract_id": 1497,
+  "function_name": "sendToCompany",
+  "function_id": 1496,
+  "function_sbp_infos": [
+    {
+      "expr_id": 1457,
+      "lable_infos": {
+        "label": "onlyOwner",
+        "sbp_lib": "onlyOwner",
+        "sbp_api": "onlyOwner"
+      }
+    },
+    {
+      "expr_id": 1459,
+      "lable_infos": {
+        "label": "nonReentrant",
+        "sbp_lib": "nonReentrant",
+        "sbp_api": "nonReentrant"
+      }
+    },
+    {
+      "expr_id": 1472,
+      "lable_infos": {
+        "label": "SafeMath",
+        "sbp_lib": "SafeMath",
+        "sbp_api": "sub"
+      }
+    }
+  ]
+}

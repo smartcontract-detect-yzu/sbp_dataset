@@ -1,0 +1,683 @@
+[
+  {
+    "content": "FunctionDefinition",
+    "type": "FunctionDefinition",
+    "cid": 1450,
+    "pid": 1497,
+    "fname": "release",
+    "cname": "GreenVesting"
+  },
+  {
+    "content": "ParameterList",
+    "type": "ParameterList",
+    "cid": 1355,
+    "pid": 1450
+  },
+  {
+    "content": "communityAddress",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1352,
+    "pid": 1355
+  },
+  {
+    "content": "address",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1351,
+    "pid": 1352
+  },
+  {
+    "content": "_amount",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1354,
+    "pid": 1355
+  },
+  {
+    "content": "uint256",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1353,
+    "pid": 1354
+  },
+  {
+    "content": "ModifierInvocation",
+    "type": "ModifierInvocation",
+    "cid": 1357,
+    "pid": 1450
+  },
+  {
+    "content": "onlyOwner",
+    "type": "IdentifierPath",
+    "idtype": "Null",
+    "cid": 1356,
+    "pid": 1357
+  },
+  {
+    "content": "ModifierInvocation",
+    "type": "ModifierInvocation",
+    "cid": 1359,
+    "pid": 1450
+  },
+  {
+    "content": "nonReentrant",
+    "type": "IdentifierPath",
+    "idtype": "Null",
+    "cid": 1358,
+    "pid": 1359
+  },
+  {
+    "content": "ParameterList",
+    "type": "ParameterList",
+    "cid": 1360,
+    "pid": 1450
+  },
+  {
+    "content": "Block",
+    "type": "Block",
+    "cid": 1449,
+    "pid": 1450
+  },
+  {
+    "content": "VariableDeclarationStatement",
+    "type": "VariableDeclarationStatement",
+    "cid": 1365,
+    "pid": 1449
+  },
+  {
+    "content": "currentDate",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1362,
+    "pid": 1365
+  },
+  {
+    "content": "uint256",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1361,
+    "pid": 1362
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1364,
+    "pid": 1365
+  },
+  {
+    "content": "_getCurrentYear",
+    "type": "Identifier",
+    "idtype": "function () view returns (uint256)",
+    "cid": 1363,
+    "pid": 1364
+  },
+  {
+    "content": "VariableDeclarationStatement",
+    "type": "VariableDeclarationStatement",
+    "cid": 1370,
+    "pid": 1449
+  },
+  {
+    "content": "yearsPassed",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1367,
+    "pid": 1370
+  },
+  {
+    "content": "uint256",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1366,
+    "pid": 1367
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1369,
+    "pid": 1370
+  },
+  {
+    "content": "_getYearsPassed",
+    "type": "Identifier",
+    "idtype": "function () view returns (uint256)",
+    "cid": 1368,
+    "pid": 1369
+  },
+  {
+    "content": "IfStatement",
+    "type": "IfStatement",
+    "cid": 1421,
+    "pid": 1449
+  },
+  {
+    "content": "<",
+    "type": "BinaryOperation",
+    "idtype": "Null",
+    "cid": 1373,
+    "pid": 1421
+  },
+  {
+    "content": "releasedYearsCount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1371,
+    "pid": 1373
+  },
+  {
+    "content": "COMMUNITY_VESTING",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1372,
+    "pid": 1373
+  },
+  {
+    "content": "Block",
+    "type": "Block",
+    "cid": 1420,
+    "pid": 1421
+  },
+  {
+    "content": "IfStatement",
+    "type": "IfStatement",
+    "cid": 1419,
+    "pid": 1420
+  },
+  {
+    "content": "||",
+    "type": "BinaryOperation",
+    "idtype": "Null",
+    "cid": 1382,
+    "pid": 1419
+  },
+  {
+    "content": "<=",
+    "type": "BinaryOperation",
+    "idtype": "Null",
+    "cid": 1379,
+    "pid": 1382
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1377,
+    "pid": 1379
+  },
+  {
+    "content": "add",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1375,
+    "pid": 1377
+  },
+  {
+    "content": "lastReleaseDate",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1374,
+    "pid": 1375
+  },
+  {
+    "content": "SECONDS_IN_YEAR",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1376,
+    "pid": 1377
+  },
+  {
+    "content": "currentDate",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1378,
+    "pid": 1379
+  },
+  {
+    "content": "!",
+    "type": "UnaryOperation",
+    "idtype": "Null",
+    "cid": 1381,
+    "pid": 1382
+  },
+  {
+    "content": "_releasedFirst",
+    "type": "Identifier",
+    "idtype": "bool",
+    "cid": 1380,
+    "pid": 1381
+  },
+  {
+    "content": "Block",
+    "type": "Block",
+    "cid": 1418,
+    "pid": 1419
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1386,
+    "pid": 1418
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1385,
+    "pid": 1386
+  },
+  {
+    "content": "lastReleaseDate",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1383,
+    "pid": 1385
+  },
+  {
+    "content": "currentDate",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1384,
+    "pid": 1385
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1396,
+    "pid": 1418
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1395,
+    "pid": 1396
+  },
+  {
+    "content": "currentCommunityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1387,
+    "pid": 1395
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1394,
+    "pid": 1395
+  },
+  {
+    "content": "add",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1389,
+    "pid": 1394
+  },
+  {
+    "content": "currentCommunityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1388,
+    "pid": 1389
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1393,
+    "pid": 1394
+  },
+  {
+    "content": "mul",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1391,
+    "pid": 1393
+  },
+  {
+    "content": "communityAmountPerYear",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1390,
+    "pid": 1391
+  },
+  {
+    "content": "yearsPassed",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1392,
+    "pid": 1393
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1406,
+    "pid": 1418
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1405,
+    "pid": 1406
+  },
+  {
+    "content": "communityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1397,
+    "pid": 1405
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1404,
+    "pid": 1405
+  },
+  {
+    "content": "sub",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1399,
+    "pid": 1404
+  },
+  {
+    "content": "communityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1398,
+    "pid": 1399
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1403,
+    "pid": 1404
+  },
+  {
+    "content": "mul",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1401,
+    "pid": 1403
+  },
+  {
+    "content": "communityAmountPerYear",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1400,
+    "pid": 1401
+  },
+  {
+    "content": "yearsPassed",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1402,
+    "pid": 1403
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1413,
+    "pid": 1418
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1412,
+    "pid": 1413
+  },
+  {
+    "content": "releasedYearsCount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1407,
+    "pid": 1412
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1411,
+    "pid": 1412
+  },
+  {
+    "content": "add",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1409,
+    "pid": 1411
+  },
+  {
+    "content": "releasedYearsCount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1408,
+    "pid": 1409
+  },
+  {
+    "content": "yearsPassed",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1410,
+    "pid": 1411
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1417,
+    "pid": 1418
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1416,
+    "pid": 1417
+  },
+  {
+    "content": "_releasedFirst",
+    "type": "Identifier",
+    "idtype": "bool",
+    "cid": 1414,
+    "pid": 1416
+  },
+  {
+    "content": "true",
+    "type": "Literal",
+    "idtype": "Null",
+    "cid": 1415,
+    "pid": 1416
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1428,
+    "pid": 1449
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1427,
+    "pid": 1428
+  },
+  {
+    "content": "require",
+    "type": "Identifier",
+    "idtype": "function (bool,string memory) pure",
+    "cid": 1422,
+    "pid": 1427
+  },
+  {
+    "content": "<=",
+    "type": "BinaryOperation",
+    "idtype": "Null",
+    "cid": 1425,
+    "pid": 1427
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1423,
+    "pid": 1425
+  },
+  {
+    "content": "currentCommunityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1424,
+    "pid": 1425
+  },
+  {
+    "content": "Not enough tokens allocated",
+    "type": "Literal",
+    "idtype": "Null",
+    "cid": 1426,
+    "pid": 1427
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1435,
+    "pid": 1449
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1434,
+    "pid": 1435
+  },
+  {
+    "content": "currentCommunityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1429,
+    "pid": 1434
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1433,
+    "pid": 1434
+  },
+  {
+    "content": "sub",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1431,
+    "pid": 1433
+  },
+  {
+    "content": "currentCommunityAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1430,
+    "pid": 1431
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1432,
+    "pid": 1433
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1443,
+    "pid": 1449
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1442,
+    "pid": 1443
+  },
+  {
+    "content": "safeTransfer",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1439,
+    "pid": 1442
+  },
+  {
+    "content": "typeConversion",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1438,
+    "pid": 1439
+  },
+  {
+    "content": "IERC20",
+    "type": "Identifier",
+    "idtype": "type(contract IERC20)",
+    "cid": 1436,
+    "pid": 1438
+  },
+  {
+    "content": "token",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1437,
+    "pid": 1438
+  },
+  {
+    "content": "communityAddress",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1440,
+    "pid": 1442
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1441,
+    "pid": 1442
+  },
+  {
+    "content": "EmitStatement",
+    "type": "EmitStatement",
+    "cid": 1448,
+    "pid": 1449
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1447,
+    "pid": 1448
+  },
+  {
+    "content": "Released",
+    "type": "Identifier",
+    "idtype": "function (address,uint256)",
+    "cid": 1444,
+    "pid": 1447
+  },
+  {
+    "content": "communityAddress",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1445,
+    "pid": 1447
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1446,
+    "pid": 1447
+  }
+]

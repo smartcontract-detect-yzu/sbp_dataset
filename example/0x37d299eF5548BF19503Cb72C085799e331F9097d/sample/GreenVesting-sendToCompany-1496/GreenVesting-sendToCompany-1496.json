@@ -1,0 +1,315 @@
+[
+  {
+    "content": "FunctionDefinition",
+    "type": "FunctionDefinition",
+    "cid": 1496,
+    "pid": 1497,
+    "fname": "sendToCompany",
+    "cname": "GreenVesting"
+  },
+  {
+    "content": "ParameterList",
+    "type": "ParameterList",
+    "cid": 1455,
+    "pid": 1496
+  },
+  {
+    "content": "_company",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1452,
+    "pid": 1455
+  },
+  {
+    "content": "address",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1451,
+    "pid": 1452
+  },
+  {
+    "content": "_amount",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1454,
+    "pid": 1455
+  },
+  {
+    "content": "uint256",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1453,
+    "pid": 1454
+  },
+  {
+    "content": "ModifierInvocation",
+    "type": "ModifierInvocation",
+    "cid": 1457,
+    "pid": 1496
+  },
+  {
+    "content": "onlyOwner",
+    "type": "IdentifierPath",
+    "idtype": "Null",
+    "cid": 1456,
+    "pid": 1457
+  },
+  {
+    "content": "ModifierInvocation",
+    "type": "ModifierInvocation",
+    "cid": 1459,
+    "pid": 1496
+  },
+  {
+    "content": "nonReentrant",
+    "type": "IdentifierPath",
+    "idtype": "Null",
+    "cid": 1458,
+    "pid": 1459
+  },
+  {
+    "content": "ParameterList",
+    "type": "ParameterList",
+    "cid": 1460,
+    "pid": 1496
+  },
+  {
+    "content": "Block",
+    "type": "Block",
+    "cid": 1495,
+    "pid": 1496
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1467,
+    "pid": 1495
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1466,
+    "pid": 1467
+  },
+  {
+    "content": "require",
+    "type": "Identifier",
+    "idtype": "function (bool,string memory) pure",
+    "cid": 1461,
+    "pid": 1466
+  },
+  {
+    "content": ">=",
+    "type": "BinaryOperation",
+    "idtype": "Null",
+    "cid": 1464,
+    "pid": 1466
+  },
+  {
+    "content": "companyAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1462,
+    "pid": 1464
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1463,
+    "pid": 1464
+  },
+  {
+    "content": "Not enough tokens.",
+    "type": "Literal",
+    "idtype": "Null",
+    "cid": 1465,
+    "pid": 1466
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1474,
+    "pid": 1495
+  },
+  {
+    "content": "=",
+    "type": "Assignment",
+    "idtype": "Null",
+    "cid": 1473,
+    "pid": 1474
+  },
+  {
+    "content": "companyAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1468,
+    "pid": 1473
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1472,
+    "pid": 1473
+  },
+  {
+    "content": "sub",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1470,
+    "pid": 1472
+  },
+  {
+    "content": "companyAmount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1469,
+    "pid": 1470
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1471,
+    "pid": 1472
+  },
+  {
+    "content": "VariableDeclarationStatement",
+    "type": "VariableDeclarationStatement",
+    "cid": 1484,
+    "pid": 1495
+  },
+  {
+    "content": "success",
+    "type": "VariableDeclaration",
+    "idtype": "Null",
+    "cid": 1476,
+    "pid": 1484
+  },
+  {
+    "content": "bool",
+    "type": "ElementaryTypeName",
+    "idtype": "Null",
+    "cid": 1475,
+    "pid": 1476
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1483,
+    "pid": 1484
+  },
+  {
+    "content": "transfer",
+    "type": "MemberAccess",
+    "idtype": "Null",
+    "cid": 1480,
+    "pid": 1483
+  },
+  {
+    "content": "typeConversion",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1479,
+    "pid": 1480
+  },
+  {
+    "content": "IERC20",
+    "type": "Identifier",
+    "idtype": "type(contract IERC20)",
+    "cid": 1477,
+    "pid": 1479
+  },
+  {
+    "content": "token",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1478,
+    "pid": 1479
+  },
+  {
+    "content": "_company",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1481,
+    "pid": 1483
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1482,
+    "pid": 1483
+  },
+  {
+    "content": "ExpressionStatement",
+    "type": "ExpressionStatement",
+    "cid": 1489,
+    "pid": 1495
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1488,
+    "pid": 1489
+  },
+  {
+    "content": "require",
+    "type": "Identifier",
+    "idtype": "function (bool,string memory) pure",
+    "cid": 1485,
+    "pid": 1488
+  },
+  {
+    "content": "success",
+    "type": "Identifier",
+    "idtype": "bool",
+    "cid": 1486,
+    "pid": 1488
+  },
+  {
+    "content": "Transfer failed.",
+    "type": "Literal",
+    "idtype": "Null",
+    "cid": 1487,
+    "pid": 1488
+  },
+  {
+    "content": "EmitStatement",
+    "type": "EmitStatement",
+    "cid": 1494,
+    "pid": 1495
+  },
+  {
+    "content": "functionCall",
+    "type": "FunctionCall",
+    "idtype": "Null",
+    "cid": 1493,
+    "pid": 1494
+  },
+  {
+    "content": "SentToCompany",
+    "type": "Identifier",
+    "idtype": "function (address,uint256)",
+    "cid": 1490,
+    "pid": 1493
+  },
+  {
+    "content": "_company",
+    "type": "Identifier",
+    "idtype": "address",
+    "cid": 1491,
+    "pid": 1493
+  },
+  {
+    "content": "_amount",
+    "type": "Identifier",
+    "idtype": "uint256",
+    "cid": 1492,
+    "pid": 1493
+  }
+]
